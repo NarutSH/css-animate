@@ -1,0 +1,17 @@
+import React from "react";
+
+const MarQueeComp = () => {
+  return (
+    <div>
+      <marquee className="marquee">
+        ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND
+        FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS
+        ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND
+        FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS
+        ORI AND FRIENDS ORI AND FRIENDS ORI AND FRIENDS
+      </marquee>
+    </div>
+  );
+};
+
+export default MarQueeComp;
