@@ -12,7 +12,7 @@
 
 .box {
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .animate-container {
@@ -22,7 +22,7 @@
 .text-animate {
   text-align: center;
   margin: 0;
-  font-size: clamp(80px, 10vw, 300px);
+  font-size: clamp(100px, 11vw, 400px);
   font-weight: 900;
   line-height: 1.9;
   animation-name: bounce;

@@ -30,6 +30,7 @@ const Home = () => {
       <Banner isLightTheme={isLightTheme} />
       {displayDetail}
       <MarQueeComp />
+
       <div className="container">
         <ImageFollow
           title="TEST-1"
