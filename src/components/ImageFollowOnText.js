@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ImageFollow = ({ title, id, imgUrl, url }) => {
+const ImageFollowOnText = ({ title, id, imgUrl, url }) => {
   const [hover, setHover] = useState(false);
 
   const styles = {
@@ -44,4 +44,4 @@ const ImageFollow = ({ title, id, imgUrl, url }) => {
   );
 };
 
-export default ImageFollow;
+export default ImageFollowOnText;

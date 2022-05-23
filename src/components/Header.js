@@ -4,6 +4,7 @@ const Header = ({ isLightTheme, setIsLightTheme }) => {
   const styles = {
     container: {
       background: isLightTheme ? "white" : "black",
+      height: "80px",
     },
   };
 

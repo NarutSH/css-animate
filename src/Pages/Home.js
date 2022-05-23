@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Banner from "../components/Banner";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ImageFollow from "../components/ImageFollow";
+import ImageFollowOnText from "../components/ImageFollowOnText";
 import MarQueeComp from "../components/MarQueeComp";
 
 const Home = () => {
@@ -27,18 +28,19 @@ const Home = () => {
   return (
     <div style={styles.container}>
       <Header isLightTheme={isLightTheme} setIsLightTheme={setIsLightTheme} />
+
       <Banner isLightTheme={isLightTheme} />
       {displayDetail}
       <MarQueeComp />
 
       <div className="container">
-        <ImageFollow
+        <ImageFollowOnText
           title="TEST-1"
           id="img-1"
           imgUrl="https://res.cloudinary.com/styllar/image/upload/f_auto/q_auto/c_scale,w_2200/c_scale,w_600/v1/rows/01/cyclava_7_ncsj5e?_a=ATAABAA0"
           url="#"
         />
-        <ImageFollow
+        <ImageFollowOnText
           title="TEST-2"
           id="img-2"
           imgUrl="https://res.cloudinary.com/styllar/image/upload/f_auto/q_auto/c_scale,w_2200/c_scale,w_600/v1/rows/02/cyclava_15_m7fgo8?_a=ATAABAA0"
